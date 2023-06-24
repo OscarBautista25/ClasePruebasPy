@@ -10,6 +10,10 @@ def test_sum():
 def test_es_mayor_que():
     assert es_mayor_que(10,1)
     print ("la funcion test_es_mayor_que funciona bien")
+
+def test_es_mayor_que2():
+    assert es_mayor_que(20,5)
+    print ("la funcion test_es_mayor_que funciona bien")
     
 @pytest.mark.parametrize(
     "in_x,in_y,esperado",
